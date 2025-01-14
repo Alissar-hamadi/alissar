@@ -1,0 +1,554 @@
+.container{
+    background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    background-position: center;
+    display: grid;
+    grid-template-rows: repeat(200px,1fr);
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    
+}
+body{
+    margin: 0;
+    border: 0;
+}
+.box8 input{
+    width:30vh ;
+    height: 5vh;
+    border-radius: 20px;
+    border: 4px double rgba(170, 74, 14, 0.966);
+    font-family:sans-serif;
+    background-color:rgba(255, 255, 255, 0);
+    letter-spacing: 5px;
+    backdrop-filter:blur(10px) ;
+    color:rgba(111, 48, 31);
+    font-family: "lucida handwriting" , cursive;
+    font-size:large;
+
+}
+#enter:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5s 0.1s ease-in;
+    box-shadow: 3px 3px rgba(111, 48, 31, 0.74);
+    letter-spacing: 9px;
+}
+#repeat{
+    background-image: url(backer2.jpg);
+    background-repeat: repeat;
+  
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,24.8vh);
+       
+}
+.bo1{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.bv1{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.bn1{
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(117, 45, 3, 0.795);
+    font-family: "lucida handwriting" , cursive;
+    color: aliceblue;
+    border-end-start-radius:30px;
+    border-end-end-radius:30px ;
+
+}
+.bo3{
+    grid-row: 2/4;
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 5px rgba(82, 58, 8, 0.623);
+    border-radius: 30px;
+    font-family: "lucida handwriting" , cursive;
+   
+    
+}
+.bm2{
+    grid-column: 3/4;
+}
+.bn2,.bv2,.bv3,.bv4,.bv5,.bo2,.bo4,.bo6,.bo10,.bo9,.bo8,.bo7,.bo5{
+    visibility: hidden;
+}
+#imag{
+        height: 3vh;
+        width: auto;
+        border-radius: 3px;
+}
+#tx,#em,#ps,#lo,#tel,#pay{
+    text-align: center;
+    border-radius: 20px;
+    border: rgba(124, 47, 11, 0.856) 2px dotted;
+    background-color: rgba(121, 57, 15, 0.192);
+    width: 30vh;
+}
+#ca,#ne{
+    width: 10vh;
+    height: 3vh;
+    border-radius: 10px;
+    border:  rgba(124, 47, 11, 0.856) 3px double;
+    background-color: rgba(121, 57, 15, 0.192);
+    font-family: "lucida handwriting" , cursive;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+#ca:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.3s 0.1s ease-in ;
+
+}
+#ne:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.3s 0.1s ease-in ;
+    
+}
+a:hover{
+    color: black;
+    transition: all 0.1s 0.1s ease-in-out;
+}
+#logo{
+    height: 6vh; 
+}
+#cut{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,33vh);
+    text-align: center;
+}
+.cut7{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-image: url(back.jpeg);
+    border-top-right-radius:20px ;
+    border-top-left-radius: 20px;
+    box-shadow: -4px -5px 7px 2px rgba(168, 95, 11, 0.534);
+    height: 34vh;
+}
+.cut1{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+.ctr1{
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.ctr2{
+    grid-column: 1/6;
+}
+.ctr3{
+    grid-column: 1/6;
+}
+.ctrr1{
+    grid-column: 1/4;
+    background-color: rgba(117, 45, 3, 0.781);
+    font-family: "lucida handwriting" , cursive;
+    color: aliceblue;
+    border-end-start-radius:30px;
+    border-end-end-radius:30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items:center;
+    align-items: center;
+    height: 11.3vh;
+}
+.ctrrr4{
+    color: black;
+    
+}
+.bm4{
+    color: black;
+}
+#insta,#face{
+    width: 7vh;
+    height: auto;
+    backdrop-filter: blur(1px);
+}
+#watts,#twit{
+    width: 6vh;
+    height: auto;
+    backdrop-filter: blur(1px);
+    
+}
+#insta:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s 0.1s ease-in-out;
+}
+#face:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s 0.1s ease-in-out;
+}
+
+#watts:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s 0.1s ease-in-out;
+}
+
+#twit:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.2s 0.1s ease-in-out;
+}
+p{
+    font-weight:bolder;
+    font-size:medium;
+    backdrop-filter: blur(2px);
+    display:inline-block;
+}
+.ctt1,.ctt2,.ctt3,.ctt4{
+    visibility: hidden;
+}
+.ctrr2{
+    grid-row: 2/8;
+    grid-column: 1/4;
+  
+}
+#log{
+    width: 15vh;
+}
+.ctr2{
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.ctr-1{
+    border-right: 1px solid black;
+}
+.ctr-2{
+    border-left:1px solid black ;
+}
+h3{
+    color: rgb(37, 19, 1);
+}
+#log{
+    animation-name: circle;
+    animation-duration: 1.5s;
+
+}
+@keyframes circle{
+    0%{
+        translate: 45vh 0;
+    }
+    100%{
+        translate: 0 0 ;
+        transform: rotate(-360deg)
+    }
+
+}
+.hmo{
+    background-image: url(backer2.jpg);
+}
+.hom{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,40vh);
+    justify-items: center;
+}
+.hom1{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,5vh);
+    justify-self:normal;
+    align-self: normal;
+}
+.hom-1{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    background-color:rgba(117, 45, 3, 0.781);
+    font-family: "lucida handwriting" , cursive;
+    color: aliceblue;
+    border-end-start-radius:30px;
+    border-end-end-radius:30px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items:center;
+    align-items: center;
+    height: 11.3vh;
+}
+.hom2,.hom3,.hom4,.hom5,.hom6,.hom7,.hom8,.hom9,.hom10,.hom11,.hom12,.hom13,.hom14,.hom15
+,.hom16,.hom17,.hom18,.hom19,.hom20,.hom21{
+    width: 24vh;
+    margin-top:1vh ;
+    margin-bottom: 1vh;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   
+    
+}
+.hom-2,.hom-3,.hom-4,.hom-5
+,.hom-6,.hom-7,.hom-8,.hom-9,.hom18,.hom21{
+    visibility: hidden;
+}
+.hom-10{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(109, 73, 20, 0.712);
+    justify-items: center;
+    align-items: center;
+}
+.homo3{
+    grid-column: 2/5;
+    font-family: "lucida handwriting" , cursive;
+    font-size: larger;
+}
+.homo1,.homo4{
+    visibility: hidden;
+}
+
+.t1{
+    background-image: url(pic/Bagel.jpg);
+   
+}
+.t2{
+    background-image: url(pic/Baguette.jpg);
+   
+}
+
+.t3{
+    background-image: url(pic/Banana\ Bread.jpg);
+
+}
+
+.t4{
+    background-image: url(pic/Brioche.jpg);
+  
+}
+.t5{
+    background-image: url(pic/whole\ wheat\ bread.jpg);
+    
+}
+.t6{
+    background-image: url(pic/Brown\ Bread.jpg);
+  
+}
+.t7{
+    background-image: url(pic/Challah.jpg);
+   
+}
+.t8{
+    background-image: url(pic/Ciabatta.jpg);
+    
+}
+.t9{
+    background-image: url(pic/Croissant.jpg);
+   
+}
+.t10{
+    background-image: url(pic/Focaccia.jpg);
+  
+}
+.t11{
+    background-image: url(pic/Grissini.jpg);
+    
+}
+.t12{
+    background-image: url(pic/Multigrain\ Bread.jpg);
+    
+}
+.t13{
+    background-image: url(pic/Pita\ Bread.jpg);
+    
+}
+.t14{
+    background-image: url(pic/Pumpernickel\ Bread.jpg);
+    
+}
+.t15{
+    background-image: url(pic/Rye\ Bread.jpg);
+    
+    
+}
+.t16{
+    background-image: url(pic/Sourdough\ Bread.jpg);
+   
+    
+}
+.t17{
+    
+}
+.t18{
+    background-image: url(pic/Tortilla.jpg);
+}
+.t19{
+    background-image: url(pic/White\ Bread.jpg);
+}
+.t20{
+    background-image: url();
+}
+.t21{
+    background-image: url();
+}
+.t22{
+    background-image: url();
+}
+.t23{
+    background-image: url();
+}
+.t24{
+    background-image: url();
+}
+.t25{
+    background-image: url();
+}
+.t26{
+    background-image: url();
+}
+.t27{
+    background-image: url();
+}
+.t28{
+    background-image: url();
+}
+.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9,.t10,.t11,.t12,.t13,.t14,.t15,
+.t16,.t17,.t18,.t19,.t20,.t21,.t22,.t23,.t24,.t25,.t26,.t27,.t28{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 25vh;
+
+}
+.hom2:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-left:3vh;
+}
+.hom3:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom4:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom5:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-right: 3vh;
+}
+.hom6:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-left: 3vh;
+    
+}
+.hom7:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom8:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom9:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-right: 3vh;
+}
+.hom10:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-left:3vh;
+}
+.hom11:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom12:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom13:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-right: 3vh;
+}
+.hom14:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-left:3vh;
+}
+.hom15:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom16:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom17:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+    margin-right: 3vh;
+}
+.hom18:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom19:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom20:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom2:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+.hom2:hover{
+    transform:scale(1.2,1.2);
+    transition: all 0.5s 0.2s ease;
+}
+#t1,#t2,#t3,#t4,#t5,#t6,#t7,#t8,#t9,#t10,#t11,#t12,#t13,#t14,#t15,
+#t16,#t17,#t18,#t19,#t20,#t21,#t22,#t23,#t24,#t25,#t26,#t27,#t28{
+    text-align: center;
+    font-family: "lucida handwriting" , cursive;
+}
+#tt1{
+    width: 10vh;
+    border-radius: 10px 25px 10px 25px;
+    border: rgb(0, 0, 0) solid 2px;
+}
+#tt1:hover{
+    background-color: rgba(18, 78, 3, 0.438);
+}
+
+
+
